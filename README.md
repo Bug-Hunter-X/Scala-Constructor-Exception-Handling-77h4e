@@ -1,0 +1,2 @@
+# Scala Constructor Exception Handling
+This example demonstrates a potential error in Scala when defining multiple constructors with implicit conversions that might throw exceptions. The main issue is the lack of handling for `NumberFormatException` when converting a String to an Int. The solution adds more robust error handling and a fallback mechanism.
